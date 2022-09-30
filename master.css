@@ -1,95 +1,74 @@
-body {
-  background-color: black;
-}
+<!DOCTYPE html>
+<html>
 
-h1, h2, h3 {
-  color: lightblue;
-  margin-left: 20px;
-}
+<head>
+	<title>
+		Ephraim M Luwemba Photogallery
+	</title>
+  <link rel="stylesheet" href="master.css">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+</head>
 
-.displayed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
+<body>
 
-/* wildcard styling */
-* {
-    box-sizing: border-box;
-}
+	<!-- title and tag -->
+	<div class="container">
+		<h1>Digital Photogallery | E M Luwemba</h1>
+		<hr>
 
-/* padding for whole body */
-body {
-    padding: 15px;
-}
+		<!-- Content of the body-->
+		<h2>Portfolio</h2>
+		<div class="row">
+      <h3>3 views of a Hipo on Carlton Street</h3>
+			<div class="column">
+				<div class="content">
+					<a href="Three_views_Hipo_1.jpg" target="_blank">
+            <img  src="Three_views_Hipo_1.jpg"	alt="" style="width:100%">
+          </a>
+				</div>
+      </div>
+      <div class="column">
+				<div class="content">
+          <a href="Three_views_Hipo_2.jpg" target="_blank">
+		       <img class="displayed" src="Three_views_Hipo_2.jpg"	alt="" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="column">
+				<div class="content">
+          <a href="Three_views_Hipo_3.jpg" target="_blank">
+	          <img class="displayed" src="Three_views_Hipo_3.jpg"	alt="" style="width:100%">
+          </a>
+				</div>
+      </div>
+		</div>
 
-/* styling body */
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
+    <h3>Urbanis</h3>
+    <div class="row">
+      <div class="column">
+				<div class="content">
+          <a href="Clifton_bridge_underpass_1.jpg" target="_blank">
+            <img class="displayed" src="Clifton_bridge_underpass_1.jpg"	alt="" style="width:100%">
+          </a>
+        </div>
+			</div>
+      <div class="column">
+				<div class="content">
+					<a href="Clifton_bridge_underpass_2.jpg" target="_blank">
+            <img class="displayed" src="Clifton_bridge_underpass_2.jpg"	alt="" style="width:100%">
+          </a>
+				</div>
+			</div>
+      <div class="column">
+        <div class="content">
+          <a href="Jazz_club_bar_kitchen.jpg" target="_blank">
+            <img src="Jazz_club_bar_kitchen.jpg" style="width:100%">
+          </a>
+        </div>
+      </div>
+    </div>
+	</div>
+</body>
 
-h1 {
-    color: green;
-}
-
-/* anchor tag decoration */
-a {
-    text-decoration: none;
-    color: #5673C8;
-}
-
-a:hover {
-    color: lightblue;
-}
-
-/* paragraph tag decoration */
-p {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
-
-}
-
-/* row and column decoration */
-.row {
-    margin: 0px -5px;
-    padding: 8px;
-}
-
-.row > .column {
-    padding: 6px;
-}
-
-.column {
-    float: left;
-    width: 33%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* content decoration */
-.content {
-    background-color: white;
-    padding: 10px;
-    border: 1px solid gray;
-}
-
-/* window size 850 width set */
-@media screen and (max-width: 850px) {
-    .column {
-        width: 50%;
-    }
-}
-
-/* window size 400 width set */
-@media screen and (max-width: 400px) {
-    .column {
-        width: 100%;
-    }
-}
+</html>
