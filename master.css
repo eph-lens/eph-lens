@@ -44,11 +44,11 @@ a:hover {
 }
 
 /* paragraph tag decoration */
-p, .comment {
+p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
-    overflow: hidden;
+    -webkit-line-clamp: 6;
+    overflow: scroll;
 }
 
 .comment
