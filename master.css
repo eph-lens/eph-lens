@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .comment {
   color: lightblue;
   margin-left: 20px;
 }
@@ -49,9 +49,13 @@ p {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
     overflow: hidden;
-
 }
 
+.comment
+{
+  font-style: italic;
+  text-align: left;
+}
 /* row and column decoration */
 .row {
     margin: 0px -5px;
