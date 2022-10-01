@@ -44,7 +44,7 @@ a:hover {
 }
 
 /* paragraph tag decoration */
-p {
+p, .comment {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
